@@ -1,0 +1,29 @@
+ tempo-DB arduino sensor client
+ 
+ This sketch connects an analog sensor to tempo-DB (http://www.tempo-DB.com)
+ using a Wiznet Ethernet shield. You can use the Arduino Ethernet shield, or
+ the Adafruit Ethernet shield, either one will work, as long as it's got
+ a Wiznet Ethernet module on board. Also the Arduino Ethernet uses this module.
+ 
+ This example has been modified to use the tempo-DB.com API. 
+ To make it work:
+ - register an account on http://www.tempo-DB.com 
+ - create a database
+ - note the APIkey and APIsecret, and enter them below
+ - you may want to change the series key
+ 
+ make sure you have the base64 library installed from:
+ https://github.com/adamvr/arduino-base64
+ 
+ Circuit:
+ * Analog sensor attached to analog in 0
+ * Ethernet shield attached to pins 10, 11, 12, 13
+ 
+ created 15 March 2010
+ modified 9 Apr 2012
+ by Tom Igoe with input from Usman Haque and Joe Saavedra
+ modified to support TempoDB on 17 feb 2013
+ by Hugo Meiland
+
+ This code is in the public domain.
+
