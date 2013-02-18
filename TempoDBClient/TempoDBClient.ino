@@ -38,8 +38,8 @@
 // some settings to get this code to work (or just to tweak)
 // format <APIkey>:<APIsecret> or actually just plain <username>:<password> since this is used
 // for authentication and selection of the database 
-char authPlain[] = "08a5906bbb664572bdf74ab254be5245:3363207897594111980d81d3305df6b6"; // <APIkey>:<APIsecret>
-String seriesKey="arduino";
+char authPlain[] = "<APIkey>:<APIsecret>"; // <APIkey>:<APIsecret>
+String seriesKey="arduino"; // modify this to give your own series key
 const unsigned long postingInterval = 10*1000; // 60 seconds delay between updates to tempo-DB.com
 char server[] = "api.tempo-db.com";   // name address for tempo-DB API
 // if you don't want to use DNS (and reduce your sketch size)
